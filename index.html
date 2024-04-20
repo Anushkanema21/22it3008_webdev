@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeetkar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+</head>
+
+<body>
+       <div class="main">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="video.mp4" type="video/mp4">
+
+            </video>
+            <script>
+                var video = document.getElementById(back-video);
+                video.playbackRate = 0.1;
+            </script>
+        
+       
+        
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html">
+                <img src="Screensho.png" alt="Logo" class="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Explore.html ">EXPLORE</a></li>
+                    <li><a href="favourite.html" >FAVOURITE</a></li>
+                    <li class="login"> <a href="login.html"> <button class="btnl">Login</button></a></li>
+                   
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Search Here">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+            
+        
+              
+            
+            <div class="icons">
+                    
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                   
+                </div>
+                <div class="box">
+
+                    <div class="progress-bar"> 
+                        <audio id="audio-player" src="1.mp3" controls></audio>
+                        <input type="range" id="progress-slider" min="0" max="100" value="0"></div>
+    
+                    <h2 class="playing">Now playing- <span class="song-name"></span></h2>
+                    <div class="controls">
+                      <button class="btn previous"><i class="ph-bold ph-skip-back"></i></button>
+                      <button class="btn play-pause">
+                        <i id="play-pause-icon" class="ph-bold ph-play"></i>
+                      </button>
+                      <button class="btn next"><i class="ph-bold ph-skip-forward"></i></button>
+                    </div>
+                     
+                  </div>
+                    <script src="sangeetkar.js" ></script>
+
+
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                
+</body>
+
+</html>
